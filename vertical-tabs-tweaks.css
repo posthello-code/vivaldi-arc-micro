@@ -1,0 +1,13 @@
+/* 
+Vivaldi mods- 
+Expand on hover vertical tab bar
+* Locked tab stack row recommended
+* Some themes may not hide the tabs when tab bar is collapsed
+* Try playing with your theme settings
+ */
+
+#main .inner > div:has(#tabs-tabbar-container:is(.left, .right)):not(:hover),
+#tabs-tabbar-container:not(:hover):is(.left, .right) {
+  width: 36px;
+  transition: width 1000ms ease-out !important;
+}

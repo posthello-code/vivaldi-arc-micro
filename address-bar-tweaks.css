@@ -1,0 +1,47 @@
+/* 
+Vivaldi mods- 
+Address Bar Smaller, 
+Center Alignment,
+ */
+
+.mainbar {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 300px) {
+  .UrlBar-AddressField.urlfield-anchor.button-textonly.below {
+    width: 100px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .UrlBar-AddressField.urlfield-anchor.button-textonly.below {
+    width: 200px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .UrlBar-AddressField.urlfield-anchor.button-textonly.below {
+    width: 500px;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .UrlBar-AddressField.urlfield-anchor.button-textonly.below {
+    width: 600px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .UrlBar-AddressField.urlfield-anchor.button-textonly.below {
+    width: 900px;
+  }
+}
+
+#main .button-toolbar img {
+  width: 20px;
+  height: 20px;
+}
