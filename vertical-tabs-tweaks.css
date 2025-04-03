@@ -6,8 +6,10 @@ Expand on hover vertical tab bar
 * Try playing with your theme settings
  */
 
+// This tweak is pretty broken in some configurations so commented out by default
+/*
 #main .inner > div:has(#tabs-tabbar-container:is(.left, .right)):not(:hover),
 #tabs-tabbar-container:not(:hover):is(.left, .right) {
   width: 36px;
   transition: width 1000ms ease-out !important;
-}
+}*/
