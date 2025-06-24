@@ -1,6 +1,6 @@
 # vivaldi-arc-micro
 
-Arc-like theme for vivaldi with minimal address bar and vertical tabs with expand on hover
+Arc-like theme for vivaldi with minimal address bar and vertical tabs
 
 <img src="viv-micro-preview.jpg" alt="Preview" width="50%">
 
